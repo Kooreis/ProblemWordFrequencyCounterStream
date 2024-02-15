@@ -1,14 +1,8 @@
 ```C#
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-class Program
+static void CountWordFrequency(string input)
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Enter a stream of words:");
-        string input = Console.ReadLine();
-    }
+    Dictionary<string, int> wordFrequency = new Dictionary<string, int>();
+
+    string[] words = input.Split(' ');
 }
 ```
