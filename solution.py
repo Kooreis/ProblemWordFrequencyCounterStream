@@ -1,9 +1,8 @@
 class WordFrequencyCounter:
-    def __init__(self):
-        self.word_frequencies = {}
+    ...
 
-    def add_word(self, word):
+    def get_frequency(self, word):
         if word in self.word_frequencies:
-            self.word_frequencies[word] += 1
+            return self.word_frequencies[word]
         else:
-            self.word_frequencies[word] = 1
+            return 0
